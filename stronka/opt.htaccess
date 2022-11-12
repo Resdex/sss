@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9]+)/$ $1.html [L]
+AddDefaultCharset UTF-8
+RewriteRule ^index/$ index.html [L]
